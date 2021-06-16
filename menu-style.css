@@ -1,0 +1,623 @@
+html {
+	height:100%;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+	background-color: #FFD54F;
+	color: #fff;
+	padding-top: 5%;
+	padding-bottom: 8%;
+	overflow-x: hidden;
+	position: relative;
+}
+
+/*HOME*/
+
+/* header */
+
+header{
+	display: flex;
+	flex-basis: 100%;
+	height: 11%;
+	background-color: #1e1e1f;
+	position: fixed;
+	top:0;
+	left:0;
+	right: 0;
+	z-index: 3;
+	flex-wrap: wrap;
+}
+
+
+.logo{
+    display: flex;
+    flex-grow: 0;
+    flex-basis: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo2{
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Home About Me Contact */
+
+.data {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	flex-grow: 1;
+
+}
+
+nav{
+	display: flex;
+	margin-right: 6%;
+}
+
+nav a{
+	text-decoration:none;
+	border-radius: 20px;
+	margin-right: 6%;
+	padding: 8px 14px;
+	background-color: #fff;
+	color: #1e1e1f;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+
+}
+
+nav a:hover {
+	background-color: #FFD54F;
+	color:#fff;
+	cursor: pointer;
+}
+
+/* logo LA CRISTINA */
+
+#icon{
+	height: 90px;
+	width: 90px;
+	background-image: url(fork.png);
+	background-size: cover;
+}
+
+#text{
+	display:flex;
+    text-align: center;
+    padding-left: 2%;
+    color:#fff;
+	font-family: 'Dancing Script', cursive;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+/*MENU*/
+
+.items{
+    background-color: #1e1e1f;
+    height: auto;
+    padding: 70px 30px 50px;
+    margin-bottom: 30px;
+}
+
+.item{
+	display: flex;
+	margin-bottom: 40px;
+
+}
+
+.photo{
+	border: 6px solid #fff;
+	flex-basis: 250px;
+	height: 250px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+.photo1{
+	width: 250px;
+	height: 250px;
+	background-image: url(sarmale.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.photo2{
+	width: 250px;
+	height: 250px;
+	background-image: url(http://gastropedia.ro/wp-content/uploads/2018/09/Spaghete-cu-carne-de-vita-si-parmezan_edited.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.photo3{
+	width: 250px;
+	height: 250px;
+	background-image: url(https://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/Chicken-Shawarma-Stuffed-Pita.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.photo4{
+	width: 250px;
+	height: 250px;
+	background-image: url(http://mancaregatita.ro/wp-content/uploads/2019/02/ciorba-perisoare-600x600.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.photo5{
+	width: 250px;
+	height: 250px;
+	background-image: url(https://www.bucataras.ro/uploads/modules/news/85698/656x440_pui-shanghai-516261.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.photo6{
+	width: 250px;
+	height: 250px;
+	background-image: url(papanas.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.photo7{
+	width: 250px;
+	height: 250px;
+	background-image: url(http://gastropedia.ro/wp-content/uploads/2018/10/Placinta-cu-mere-si-aluat-fraged-3_edited.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.photo8{
+	width: 250px;
+	height: 250px;
+	background-image: url(COZONAC.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+	
+}
+
+.nume_preparat {
+	font-size: 40px;
+	font-family: 'Handlee', cursive;
+}
+
+.ingrediente {
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+	flex-wrap: wrap;
+}
+
+.pret {
+	font-size: 30px;
+	font-family: 'Handlee', cursive;
+}
+
+.footer{
+	background-color: #1e1e1f;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Arial', sans-serif;
+	letter-spacing: 1.2px;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+
+}
+
+@media (min-width: 1024px){
+
+     
+nav a{
+    font-size: 120%;
+}
+
+nav{
+	margin-right: 8%;
+}
+
+.body{
+	padding-top: 6%;
+}
+
+.photo{
+	border: 8px solid #fff;
+	flex-basis: 280px;
+	width: 280px;
+	margin-left: 0px;
+	margin-right: 15px;
+	flex-shrink: 0;
+
+}
+
+.items{
+	margin-top:140px;
+	margin-bottom: 10%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px)
+{
+
+body{
+		padding-top: 0;
+	}
+
+    header{
+		position: relative;
+		height: auto;
+		top:0;
+	}
+     
+
+    #icon{
+	padding: 4% 4%;
+}
+
+#text{
+    padding-left: 8%;
+	font-size: 360%;
+
+}
+
+nav{
+	margin-right: 14%;
+}
+
+
+ nav a{
+	font-size: 100%;
+
+}
+
+.nume_preparat {
+	font-size: 25px;
+	font-family: 'Handlee', cursive;
+}
+
+.ingrediente {
+	font-size: 15px;
+	font-family: 'Handlee', cursive;
+}
+
+.pret {
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+}
+
+.photo{
+	border: 6px solid #fff;
+	flex-basis: 250px;
+	width: 250px;
+	margin-left: 0px;
+	margin-right: 15px;
+	flex-shrink: 0;
+
+}
+
+.items{
+	margin-top:40px;
+	margin-bottom: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+}
+
+@media (min-width: 541px) and (max-width: 767px){
+	body{
+    	padding-top: 0;
+    }
+
+    header{
+    	position: relative;
+		height: 90px;
+		top:0;
+	}
+
+	#text{
+		font-size: 65px;
+	}
+    
+    .data{
+    	flex-direction: row;
+    	margin-top: 5%;
+    }
+
+    nav a{
+    	font-size: 28px;
+    	border-radius: 40px;
+    	padding: 15px 25px;
+    }
+
+    nav a:hover {
+	background-color: #1e1e1f;
+}
+.items{
+	margin-top:120px;
+	margin-bottom: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.item {
+	flex-direction: column;
+}
+
+.photo{
+	border: 2px solid #fff;
+	flex-basis: 220px;
+	width: 220px;
+	margin-left: 0px;
+	margin-right: 15px;
+	flex-shrink: 0;
+	align-self: center;
+
+}
+
+.nume_preparat {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Handlee', cursive;
+}
+
+.ingrediente {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+	flex-wrap: wrap;
+}
+
+.pret {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Handlee', cursive;
+}
+
+}
+
+
+@media (min-width: 425px) and (max-width: 540px){
+	body{
+    	padding-top: 0;
+    }
+
+    header{
+    	position: relative;
+		height: 90px;
+		top:0;
+	}
+
+	#text{
+		font-size: 65px;
+	}
+    
+    .data{
+    	flex-direction: row;
+    	margin-top: 5%;
+    }
+
+    nav a:hover {
+	background-color: #1e1e1f;
+}
+
+.items{
+	margin-top:84px;
+	margin-bottom: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.item {
+	flex-direction: column;
+}
+
+.photo{
+	border: 2px solid #fff;
+	flex-basis: 220px;
+	width: 220px;
+	margin-left: 0px;
+	margin-right: 15px;
+	flex-shrink: 0;
+	align-self: center;
+
+}
+
+.nume_preparat {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Handlee', cursive;
+}
+
+.ingrediente {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Handlee', cursive;
+	flex-wrap: wrap;
+}
+
+.pret {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+}
+
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+	body{
+    	padding-top: 0;
+    }
+
+    header{
+    	position: relative;
+		height: 90px;
+		top:0;
+	}
+
+	#text{
+		font-size: 55px;
+	}
+    
+    .data{
+    	flex-direction: row;
+    	margin-top: 4%;
+    }
+
+    nav a:hover {
+	background-color: #1e1e1f;
+}
+
+.items{
+	margin-top:66px;
+	margin-bottom: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.item {
+	flex-direction: column;
+}
+
+.photo{
+	border: 2px solid #fff;
+	flex-basis: 200px;
+	width: 200px;
+	margin-left: 0px;
+	margin-right: 15px;
+	flex-shrink: 0;
+	align-self: center;
+
+}
+
+.nume_preparat {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Handlee', cursive;
+}
+
+.ingrediente {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Handlee', cursive;
+	flex-wrap: wrap;
+}
+
+.pret {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    body{
+    	padding-top: 0;
+    }
+
+    header{
+    	position: relative;
+		height: 90px;
+		top:0;
+	}
+
+	#text{
+		font-size: 45px;
+	}
+    
+    .data{
+    	flex-direction: row;
+    	margin-top: 5%;
+    }
+
+    nav a:hover {
+	background-color: #1e1e1f;
+}
+.items{
+	margin-top: 66px;
+	margin-bottom: 30%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.item {
+	flex-direction: column;
+}
+
+.photo{
+	border: 2px solid #fff;
+	flex-basis: 150px;
+	width: 150px;
+	margin-left: 0px;
+	margin-right: 15px;
+	flex-shrink: 0;
+	align-self: center;
+
+}
+
+.nume_preparat {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Handlee', cursive;
+}
+
+.ingrediente {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Handlee', cursive;
+	flex-wrap: wrap;
+}
+
+.pret {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+}
+
+}
+
+
+
+
+
+
